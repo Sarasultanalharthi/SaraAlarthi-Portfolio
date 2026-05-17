@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Works - Sara Sultan Alharthi</title>
+  <meta name="description" content="JavaScript applications built by Sara Sultan Alharthi for CPIT-405.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header>
+    <div class="logo">
+      <span class="code-icon">&lt;/&gt;</span>
+      <div>
+        <h1>Sara Sultan Alharthi</h1>
+        <p>Information Technology Student</p>
+      </div>
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="schedule.html">Schedule</a>
+      <a href="labs.html">Labs</a>
+      <a href="myworks.html" class="active">My Works</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ===== PAGE HEADER ===== -->
+    <div class="page-header">
+      <div class="works-page-icon">
+        <!-- Folder with code icon -->
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="56" height="56" stroke="#ec6c9b" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/>
+          <polyline points="10 16 12.5 13.5 10 11" stroke="#ec6c9b"/>
+          <polyline points="14 11 16.5 13.5 14 16" stroke="#ec6c9b"/>
+        </svg>
+        <span class="works-sparkle ws1">✦</span>
+        <span class="works-sparkle ws2">✦</span>
+        <span class="works-sparkle ws3">✦</span>
+      </div>
+      <h1>My Works</h1>
+      <div class="underline"></div>
+      <p>Here are my JavaScript applications for CPIT-405.</p>
+    </div>
+
+    <!-- ===== WORKS GRID ===== -->
+    <div class="works-grid">
+
+      <!-- App 1 - To Do List -->
+      <div class="work-card">
+        <div class="work-icon-wrap pink-bg">
+          <!-- Checklist / Todo Icon -->
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <rect x="3" y="3" width="18" height="18" rx="2" stroke="#ec6c9b" stroke-width="1.5" fill="none"/>
+            <polyline points="8 12 10.5 14.5 16 9" stroke="#ec6c9b" stroke-width="2" fill="none"/>
+            <line x1="8" y1="7" x2="16" y2="7" stroke="#ec6c9b" stroke-width="1.5"/>
+            <line x1="8" y1="17" x2="13" y2="17" stroke="#ec6c9b" stroke-width="1.5"/>
+          </svg>
+        </div>
+        <div class="work-card-text">
+          <h2>App 1 - To Do List</h2>
+          <div class="work-divider"></div>
+          <p>A simple JavaScript task manager that allows users to add and manage tasks dynamically.</p>
+          <a href="app1.html" class="open-btn">
+            <svg viewBox="0 0 24 24" width="16" height="16" stroke="white" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+              <polyline points="15 3 21 3 21 9"/>
+              <line x1="10" y1="14" x2="21" y2="3"/>
+            </svg>
+            Open App
+          </a>
+        </div>
+      </div>
+
+      <!-- App 2 - Country Explorer -->
+      <div class="work-card">
+        <div class="work-icon-wrap purple-bg">
+          <!-- Globe Icon -->
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="12" cy="12" r="10"/>
+            <line x1="2" y1="12" x2="22" y2="12"/>
+            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+          </svg>
+        </div>
+        <div class="work-card-text">
+          <h2>App 2 - Country Explorer</h2>
+          <div class="work-divider"></div>
+          <p>A JavaScript application that fetches country data using a public API with fetch().</p>
+          <a href="app2.html" class="open-btn">
+            <svg viewBox="0 0 24 24" width="16" height="16" stroke="white" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+              <polyline points="15 3 21 3 21 9"/>
+              <line x1="10" y1="14" x2="21" y2="3"/>
+            </svg>
+            Open App
+          </a>
+        </div>
+      </div>
+
+      <!-- App 3 - Product Management (PHP) -->
+      <div class="work-card">
+        <div class="work-icon-wrap" style="background: linear-gradient(135deg, #4f5b93 0%, #8892bf 100%);">
+          <!-- Database / PHP Icon -->
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24" stroke="white" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+            <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+            <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+          </svg>
+        </div>
+        <div class="work-card-text">
+          <h2>App 3 - PHP Project</h2>
+          <div class="work-divider"></div>
+          <p>A full CRUD product management application built with PHP and SQLite.</p>
+          <a href="https://github.com/Sarasultanalharthi/Portfolio-Assignment-Phase-3.git" target="_blank" class="open-btn">
+            <svg viewBox="0 0 24 24" width="16" height="16" stroke="white" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+              <polyline points="15 3 21 3 21 9"/>
+              <line x1="10" y1="14" x2="21" y2="3"/>
+            </svg>
+            GitHub Repo
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="footer-icons">
+      <a href="#" class="footer-icon" aria-label="GitHub">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+        </svg>
+      </a>
+      <a href="https://www.linkedin.com/in/sara-alharthi-86094b367?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank" class="footer-icon" aria-label="LinkedIn">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+          <rect x="2" y="9" width="4" height="12"/>
+          <circle cx="4" cy="4" r="2"/>
+        </svg>
+      </a>
+      <a href="mailto:sarasultan391420@hotmail.com" class="footer-icon" aria-label="Email">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+          <polyline points="22,6 12,13 2,6"/>
+        </svg>
+      </a>
+    </div>
+    <p>© 2026 Sara Sultan Alharthi. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
